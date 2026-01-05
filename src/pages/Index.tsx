@@ -3,6 +3,11 @@ import Hero from "@/components/landing/Hero";
 import SocialProof from "@/components/landing/SocialProof";
 import ProblemSolution from "@/components/landing/ProblemSolution";
 import Features from "@/components/landing/Features";
+import FunctionsGrid from "@/components/landing/FunctionsGrid";
+import FunctionDetails from "@/components/landing/FunctionDetails";
+import AccountingBlock from "@/components/landing/AccountingBlock";
+import AutomationsBlock from "@/components/landing/AutomationsBlock";
+import FAQ from "@/components/landing/FAQ";
 import Pricing from "@/components/landing/Pricing";
 import CTA from "@/components/landing/CTA";
 import Footer from "@/components/landing/Footer";
@@ -16,6 +21,11 @@ const Index = () => {
         <SocialProof />
         <ProblemSolution />
         <Features />
+        <FunctionsGrid />
+        <FunctionDetails />
+        <AccountingBlock />
+        <AutomationsBlock />
+        <FAQ />
         <Pricing />
         <CTA />
       </main>
