@@ -6,19 +6,19 @@ const ProblemSolution = () => {
     {
       icon: FolderOpen,
       problem: "¿Catálogo disperso?",
-      solution: "Centraliza manualmente productos de Weidian y Taobao. Organizado por categorías y listo para cuando quieras comprar.",
+      solution: "Centraliza productos de Weidian y Taobao. Organizado por categorías y listo para cuando quieras comprar.",
       color: "bg-blue-500/10 text-blue-500",
     },
     {
       icon: Package,
       problem: "¿Perdido con los agentes?",
-      solution: "Registra manualmente tus compras en Sugargoo o CSSBuy. Anota QC, costes y crea paquetes desde el programa.",
+      solution: "Lleva el control de tus compras en Sugargoo o CSSBuy. Anota QC, costes y crea paquetes desde el programa.",
       color: "bg-green-500/10 text-green-500",
     },
     {
       icon: Warehouse,
       problem: "¿Stock descontrolado?",
-      solution: "Lleva el control de lo que tienes, vendiste y está en camino. Traslada datos de todas las plataformas a un solo lugar.",
+      solution: "Controla lo que tienes, vendiste y está en camino. Todas las plataformas en un solo lugar.",
       color: "bg-purple-500/10 text-purple-500",
     },
   ];
