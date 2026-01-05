@@ -4,7 +4,6 @@ import SocialProof from "@/components/landing/SocialProof";
 import ProblemSolution from "@/components/landing/ProblemSolution";
 import Features from "@/components/landing/Features";
 import FunctionsGrid from "@/components/landing/FunctionsGrid";
-import FunctionDetails from "@/components/landing/FunctionDetails";
 import AccountingBlock from "@/components/landing/AccountingBlock";
 import AutomationsBlock from "@/components/landing/AutomationsBlock";
 import FAQ from "@/components/landing/FAQ";
@@ -22,7 +21,6 @@ const Index = () => {
         <ProblemSolution />
         <Features />
         <FunctionsGrid />
-        <FunctionDetails />
         <AccountingBlock />
         <AutomationsBlock />
         <FAQ />
