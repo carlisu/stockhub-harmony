@@ -23,7 +23,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-              Centraliza manualmente tu catálogo, compras en Weidian/Taobao, agentes como Sugargoo, stock y paquetes. Sin integraciones, todo bajo tu control.
+              Olvídate de los Excels. Centraliza tu catálogo, compras, almacén en agentes, stock y ventas en un solo lugar.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

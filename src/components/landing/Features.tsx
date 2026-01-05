@@ -6,14 +6,14 @@ const Features = () => {
     {
       icon: BookOpen,
       title: "Catálogo centralizado",
-      description: "Guarda manualmente productos de Weidian y Taobao en tu catálogo. Organiza por categorías, añade notas y ten todo listo para comprar cuando quieras.",
+      description: "Guarda productos de Weidian y Taobao en tu catálogo. Organiza por categorías, añade notas y ten todo listo para comprar cuando quieras.",
       stats: { label: "Productos", value: "Ilimitados" },
       reverse: false,
     },
     {
       icon: Package,
       title: "Gestión de agentes",
-      description: "Registra manualmente tus compras cuando llegan al almacén de Sugargoo o CSSBuy. Anota el QC, costes y estado de cada artículo.",
+      description: "Controla tus compras cuando llegan al almacén de Sugargoo o CSSBuy. Anota el QC, costes y estado de cada artículo.",
       stats: { label: "Agentes", value: "Sugargoo, CSSBuy" },
       reverse: true,
     },
@@ -27,7 +27,7 @@ const Features = () => {
     {
       icon: ShoppingBag,
       title: "Flujo completo hasta Vinted",
-      description: "Desde que compras en Weidian hasta que el cliente confirma en Vinted. Registra ventas manualmente, calcula beneficios reales y cierra el ciclo.",
+      description: "Desde que compras en Weidian hasta que el cliente confirma en Vinted. Lleva el control de ventas, calcula beneficios reales y cierra el ciclo.",
       stats: { label: "Ciclo", value: "Completo" },
       reverse: true,
     },
