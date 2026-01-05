@@ -84,10 +84,10 @@ const FunctionsGrid = () => {
     {
       icon: Users,
       title: "Cuentas Vinted",
-      benefit: "Gestiona múltiples cuentas y asigna ventas",
+      benefit: "Multi-cuenta con vigilancia DAC7 integrada",
       bullets: [
-        "Multi-cuenta sin líos",
-        "Asignación a artículos/ventas",
+        "Gestión de varias cuentas",
+        "Alertas de límites DAC7",
         "Estadísticas por cuenta"
       ],
       anchor: "#cuentas-vinted"

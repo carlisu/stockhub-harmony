@@ -147,21 +147,23 @@ const FunctionDetails = () => {
       bullets: [
         "Añadir y gestionar varias cuentas de Vinted",
         "Asignar artículos y ventas a cada cuenta",
+        "Vigilancia DAC7: marcadores de riesgo al acercarte a límites",
+        "Alertas automáticas cerca de 30 transacciones o 2.000€",
         "Estadísticas separadas por cuenta",
         "Control de qué cuenta vende qué producto",
         "Histórico de ventas por cuenta"
       ],
       cases: [
         {
-          title: "Dos cuentas, un control",
-          description: "Operas con dos cuentas de Vinted. El sistema te muestra qué vende cada una y puedes comparar rendimiento fácilmente."
+          title: "Alerta DAC7 antes de tiempo",
+          description: "Una cuenta llega a 25 transacciones. El sistema te avisa con indicadores de riesgo para que actúes antes de superar los límites reportables."
         },
         {
-          title: "Rotar artículos entre cuentas",
-          description: "Un artículo no se vende en una cuenta. Lo reasignas a otra y el sistema mantiene la trazabilidad completa."
+          title: "Dos cuentas, control total",
+          description: "Operas con dos cuentas de Vinted. El sistema te muestra ventas, margen y estado DAC7 de cada una para que equilibres la carga."
         }
       ],
-      problem: "Gestionar varias cuentas con hojas de cálculo es caótico. Es fácil confundir qué artículo está en qué cuenta y perder dinero por errores."
+      problem: "Sin vigilancia DAC7 puedes superar los límites sin darte cuenta (30 transacciones o 2.000€ por cuenta). Hacienda recibirá tus datos y no estarás preparado."
     }
   ];
 
