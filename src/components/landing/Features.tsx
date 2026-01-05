@@ -13,14 +13,14 @@ const Features = () => {
     {
       icon: Package,
       title: "Gestión de agentes",
-      description: "Controla tus compras cuando llegan al almacén de Sugargoo o CSSBuy. Anota el QC, costes y estado de cada artículo.",
-      stats: { label: "Agentes", value: "Sugargoo, CSSBuy" },
+      description: "Controla tus compras cuando llegan al almacén de tu agente. Anota el QC, costes y estado de cada artículo.",
+      stats: { label: "Control", value: "Completo" },
       reverse: true,
     },
     {
       icon: Boxes,
       title: "Paquetes y stock",
-      description: "Crea paquetes replicando los de Sugargoo y asigna productos. Cuando lleguen a tu casa, márcalos como stock listo para vender.",
+      description: "Crea paquetes y asigna productos. Cuando lleguen a tu casa, márcalos como stock listo para vender.",
       stats: { label: "Control", value: "Total" },
       reverse: false,
     },

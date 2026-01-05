@@ -18,7 +18,7 @@ const SocialProof = () => {
     {
       icon: Boxes,
       title: "Almacén",
-      description: "Llega a Sugargoo o CSSBuy",
+      description: "Llega al almacén de tu agente",
       color: "bg-purple-500",
     },
     {
@@ -124,7 +124,7 @@ const SocialProof = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-12 flex flex-wrap items-center justify-center gap-3"
         >
-          {["Weidian", "Taobao", "Sugargoo", "CSSBuy", "Vinted"].map((platform) => (
+          {["Weidian", "Taobao", "Vinted"].map((platform) => (
             <span
               key={platform}
               className="px-4 py-2 rounded-full bg-secondary text-sm font-medium text-muted-foreground border border-border"

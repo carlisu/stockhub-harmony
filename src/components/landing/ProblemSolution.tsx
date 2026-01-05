@@ -12,7 +12,7 @@ const ProblemSolution = () => {
     {
       icon: Package,
       problem: "¿Perdido con los agentes?",
-      solution: "Lleva el control de tus compras en Sugargoo o CSSBuy. Anota QC, costes y crea paquetes desde el programa.",
+      solution: "Lleva el control de tus compras en agentes como Sugargoo o CSSBuy. Anota QC, costes y crea paquetes desde el programa.",
       color: "bg-green-500/10 text-green-500",
     },
     {
