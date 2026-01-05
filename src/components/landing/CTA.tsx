@@ -20,11 +20,11 @@ const CTA = () => {
           className="text-center max-w-3xl mx-auto"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Deja de gestionar tu negocio a ciegas
+            Deja de gestionar tu negocio con Excel
           </h2>
           
           <p className="text-lg text-primary-foreground/80 mb-10">
-            Únete a cientos de vendedores que ya controlan cada aspecto de su negocio de importación.
+            Únete a revendedores que ya controlan todo su flujo: desde Weidian hasta la venta confirmada en Vinted.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -32,7 +32,7 @@ const CTA = () => {
               size="lg"
               className="bg-background text-foreground hover:bg-background/90 text-base px-8"
             >
-              Empezar prueba gratuita
+              Probar 14 días gratis
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -40,12 +40,12 @@ const CTA = () => {
               variant="outline"
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-base"
             >
-              Hablar con ventas
+              Ver cómo funciona
             </Button>
           </div>
 
           <p className="mt-6 text-sm text-primary-foreground/60">
-            Sin tarjeta de crédito · Configuración en 5 minutos
+            Sin tarjeta de crédito · Solo 14,99€/mes después de la prueba
           </p>
         </motion.div>
       </div>

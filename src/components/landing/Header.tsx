@@ -12,9 +12,9 @@ const Header = () => {
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">S</span>
+            <span className="text-primary-foreground font-bold text-sm">R</span>
           </div>
-          <span className="font-semibold text-lg text-foreground">StockHub</span>
+          <span className="font-semibold text-lg text-foreground">ResellHub</span>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -34,7 +34,7 @@ const Header = () => {
             Iniciar sesión
           </Button>
           <Button size="sm" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-            Empezar gratis
+            Probar 14 días gratis
           </Button>
         </div>
       </div>

@@ -1,24 +1,24 @@
 import { motion } from "framer-motion";
-import { Package, Calculator, Warehouse, ArrowRight } from "lucide-react";
+import { FolderOpen, Package, Warehouse, ArrowRight } from "lucide-react";
 
 const ProblemSolution = () => {
   const items = [
     {
-      icon: Package,
-      problem: "¿Paquetes perdidos?",
-      solution: "Tracking automático sincronizado con 17TRACK. Nunca pierdas de vista un envío.",
+      icon: FolderOpen,
+      problem: "¿Catálogo disperso?",
+      solution: "Crea tu catálogo interno con productos de Weidian y Taobao. Todo organizado y listo para comprar.",
       color: "bg-blue-500/10 text-blue-500",
     },
     {
-      icon: Calculator,
-      problem: "¿No sabes tu beneficio real?",
-      solution: "Cálculo exacto de márgenes incluyendo costes de aduanas, QC y devoluciones.",
+      icon: Package,
+      problem: "¿Perdido con los agentes?",
+      solution: "Gestiona tus compras en Sugargoo o CSSBuy. Crea paquetes y asigna stock desde el programa.",
       color: "bg-green-500/10 text-green-500",
     },
     {
       icon: Warehouse,
-      problem: "¿Vendes lo que no tienes?",
-      solution: "Inventario sincronizado en tiempo real. Stock actualizado automáticamente.",
+      problem: "¿Stock descontrolado?",
+      solution: "Controla qué tienes, qué vendiste y qué está en camino. Flujo completo hasta la venta en Vinted.",
       color: "bg-purple-500/10 text-purple-500",
     },
   ];
@@ -37,7 +37,7 @@ const ProblemSolution = () => {
             Del caos al control total
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Resolvemos los problemas que todo importador conoce demasiado bien.
+            Resolvemos los problemas que todo revendedor de Vinted conoce.
           </p>
         </motion.div>
 

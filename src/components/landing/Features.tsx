@@ -1,34 +1,34 @@
 import { motion } from "framer-motion";
-import { DollarSign, Truck, BarChart3, RefreshCcw } from "lucide-react";
+import { BookOpen, Package, Boxes, ShoppingBag } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: DollarSign,
-      title: "Controla cada céntimo",
-      description: "El sistema tiene en cuenta devoluciones, fallos de QC, aduanas y costes de envío para darte tu Net Profit real. Sin sorpresas.",
-      stats: { label: "Precisión", value: "99.8%" },
+      icon: BookOpen,
+      title: "Catálogo centralizado",
+      description: "Guarda productos de Weidian y Taobao en tu catálogo interno. Organiza por categorías, añade notas y ten todo listo para comprar cuando quieras.",
+      stats: { label: "Productos", value: "Ilimitados" },
       reverse: false,
     },
     {
-      icon: Truck,
-      title: "Automatización logística",
-      description: "Sincronización automática de estados de envío. Sabrás dónde está cada paquete sin entrar en webs chinas ni revisar emails.",
-      stats: { label: "Tiempo ahorrado", value: "4h/día" },
+      icon: Package,
+      title: "Gestión de agentes",
+      description: "Registra tus compras cuando llegan al almacén de Sugargoo o CSSBuy. Controla el QC, costes y estado de cada artículo antes de crear paquetes.",
+      stats: { label: "Agentes", value: "Sugargoo, CSSBuy" },
       reverse: true,
     },
     {
-      icon: BarChart3,
-      title: "Analytics que importan",
-      description: "Dashboards diseñados para vendedores reales. Métricas de producto, proveedor y canal de venta en un solo lugar.",
-      stats: { label: "ROI promedio", value: "+340%" },
+      icon: Boxes,
+      title: "Paquetes y stock",
+      description: "Crea paquetes como en Sugargoo y asigna productos. Cuando lleguen, pasan automáticamente a tu stock listo para vender.",
+      stats: { label: "Control", value: "Total" },
       reverse: false,
     },
     {
-      icon: RefreshCcw,
-      title: "Gestión de devoluciones",
-      description: "Registra devoluciones, reembolsos y pérdidas. El sistema recalcula automáticamente tus márgenes reales.",
-      stats: { label: "Devoluciones rastreadas", value: "100%" },
+      icon: ShoppingBag,
+      title: "Flujo completo hasta Vinted",
+      description: "Desde que compras en Weidian hasta que el cliente confirma en Vinted. Registra ventas, calcula beneficios reales y cierra el ciclo.",
+      stats: { label: "Ciclo", value: "Completo" },
       reverse: true,
     },
   ];
@@ -44,10 +44,10 @@ const Features = () => {
           className="text-center mb-20"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Todo lo que necesitas, nada que no
+            El flujo completo del revendedor
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Herramientas diseñadas específicamente para el negocio de importación y reventa.
+            Desde la compra en China hasta la venta confirmada en Vinted.
           </p>
         </motion.div>
 
