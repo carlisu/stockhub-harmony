@@ -6,19 +6,19 @@ const ProblemSolution = () => {
     {
       icon: FolderOpen,
       problem: "¿Catálogo disperso?",
-      solution: "Crea tu catálogo interno con productos de Weidian y Taobao. Todo organizado y listo para comprar.",
+      solution: "Centraliza manualmente productos de Weidian y Taobao. Organizado por categorías y listo para cuando quieras comprar.",
       color: "bg-blue-500/10 text-blue-500",
     },
     {
       icon: Package,
       problem: "¿Perdido con los agentes?",
-      solution: "Gestiona tus compras en Sugargoo o CSSBuy. Crea paquetes y asigna stock desde el programa.",
+      solution: "Registra manualmente tus compras en Sugargoo o CSSBuy. Anota QC, costes y crea paquetes desde el programa.",
       color: "bg-green-500/10 text-green-500",
     },
     {
       icon: Warehouse,
       problem: "¿Stock descontrolado?",
-      solution: "Controla qué tienes, qué vendiste y qué está en camino. Flujo completo hasta la venta en Vinted.",
+      solution: "Lleva el control de lo que tienes, vendiste y está en camino. Traslada datos de todas las plataformas a un solo lugar.",
       color: "bg-purple-500/10 text-purple-500",
     },
   ];
