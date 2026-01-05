@@ -14,12 +14,15 @@ const Footer = () => {
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">S</span>
+                  <span className="text-primary-foreground font-bold text-sm">R</span>
                 </div>
-                <span className="font-semibold text-lg text-foreground">StockHub</span>
+                <span className="font-semibold text-lg text-foreground">ResellHub</span>
               </div>
-              <p className="text-muted-foreground max-w-sm">
-                El ERP todo-en-uno para emprendedores de importación y reventa. Simplifica tu negocio.
+              <p className="text-muted-foreground max-w-sm mb-4">
+                El ERP diseñado para revendedores. Gestiona todo tu flujo de importación desde China hasta la venta en Vinted.
+              </p>
+              <p className="text-sm text-muted-foreground/70">
+                Un producto de <span className="font-medium text-foreground">Cap Solutions</span>
               </p>
             </div>
 
@@ -44,7 +47,7 @@ const Footer = () => {
 
           <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} StockHub. Todos los derechos reservados.
+              © {new Date().getFullYear()} ResellHub by Cap Solutions. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

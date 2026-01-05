@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BarChart3, Package, TrendingUp } from "lucide-react";
+import { ArrowRight, ShoppingBag, Package, TrendingUp } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -14,25 +14,25 @@ const Hero = () => {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-accent/10 border border-accent/20 mb-6">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-              <span className="text-xs font-medium text-accent">Nuevo: Sincronización con 17TRACK</span>
+              <span className="text-xs font-medium text-accent">Diseñado para revendedores en Vinted</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Tu negocio de importación y reventa,{" "}
-              <span className="text-gradient">bajo control total.</span>
+              Del proveedor chino a{" "}
+              <span className="text-gradient">tu venta en Vinted.</span>
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-              Olvídate de los Excels. Gestiona compras en China, trackings, inventario y beneficios reales en una sola plataforma.
+              Gestiona todo el flujo: catálogo, compras en Weidian/Taobao, agentes como Sugargoo, stock y paquetes. Todo en un solo lugar.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity text-base px-8">
-                Empezar prueba gratuita
+                Probar 14 días gratis
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button size="lg" variant="outline" className="text-base">
-                Ver demo
+                Ver cómo funciona
               </Button>
             </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
                 <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                14 días gratis
+                14,99€/mes después
               </div>
             </div>
           </motion.div>
@@ -59,56 +59,44 @@ const Hero = () => {
             className="relative"
           >
             <div className="relative bg-card rounded-2xl shadow-medium border border-border p-6 overflow-hidden">
-              {/* Dashboard mockup */}
+              {/* Dashboard mockup - Flujo de trabajo */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-xs text-muted-foreground">Beneficio neto este mes</p>
-                    <p className="text-2xl font-bold text-foreground">€4,832.50</p>
+                    <p className="text-2xl font-bold text-foreground">€2,847.30</p>
                   </div>
                   <div className="flex items-center gap-1 text-green-500 text-sm font-medium">
                     <TrendingUp className="h-4 w-4" />
-                    +23.5%
+                    +18.2%
                   </div>
                 </div>
 
-                <div className="h-32 flex items-end gap-2">
-                  {[40, 65, 45, 80, 55, 90, 70, 85, 60, 95, 75, 88].map((height, i) => (
-                    <motion.div
-                      key={i}
-                      initial={{ height: 0 }}
-                      animate={{ height: `${height}%` }}
-                      transition={{ duration: 0.5, delay: 0.5 + i * 0.05 }}
-                      className="flex-1 bg-gradient-to-t from-accent/60 to-accent rounded-t"
-                    />
-                  ))}
-                </div>
-
                 <div className="border-t border-border pt-4 space-y-3">
-                  <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Paquetes recientes</p>
+                  <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Flujo activo</p>
                   
                   {[
-                    { id: "YT2024123456", status: "En tránsito", location: "Guangzhou", color: "bg-yellow-500" },
-                    { id: "YT2024123457", status: "En aduanas", location: "Madrid", color: "bg-blue-500" },
-                    { id: "YT2024123458", status: "Entregado", location: "Barcelona", color: "bg-green-500" },
-                  ].map((pkg, i) => (
+                    { step: "Catálogo", item: "Nike Dunk Low", status: "32 unidades", icon: ShoppingBag, color: "bg-blue-500" },
+                    { step: "En Sugargoo", item: "Lote #2847", status: "QC Aprobado", icon: Package, color: "bg-yellow-500" },
+                    { step: "Stock listo", item: "Air Force 1", status: "12 disponibles", icon: Package, color: "bg-green-500" },
+                  ].map((item, i) => (
                     <motion.div
-                      key={pkg.id}
+                      key={item.step}
                       initial={{ opacity: 0, x: 20 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.4, delay: 0.8 + i * 0.1 }}
                       className="flex items-center justify-between p-3 bg-secondary/50 rounded-lg"
                     >
                       <div className="flex items-center gap-3">
-                        <Package className="h-4 w-4 text-muted-foreground" />
+                        <item.icon className="h-4 w-4 text-muted-foreground" />
                         <div>
-                          <p className="text-sm font-medium text-foreground">{pkg.id}</p>
-                          <p className="text-xs text-muted-foreground">{pkg.location}</p>
+                          <p className="text-sm font-medium text-foreground">{item.item}</p>
+                          <p className="text-xs text-muted-foreground">{item.step}</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className={`w-2 h-2 rounded-full ${pkg.color}`} />
-                        <span className="text-xs text-muted-foreground">{pkg.status}</span>
+                        <span className={`w-2 h-2 rounded-full ${item.color}`} />
+                        <span className="text-xs text-muted-foreground">{item.status}</span>
                       </div>
                     </motion.div>
                   ))}
@@ -129,11 +117,11 @@ const Hero = () => {
             >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center">
-                  <BarChart3 className="h-5 w-5 text-green-500" />
+                  <TrendingUp className="h-5 w-5 text-green-500" />
                 </div>
                 <div>
-                  <p className="text-xs text-muted-foreground">Margen promedio</p>
-                  <p className="text-lg font-bold text-foreground">34.2%</p>
+                  <p className="text-xs text-muted-foreground">Ventas Vinted hoy</p>
+                  <p className="text-lg font-bold text-foreground">+€127.50</p>
                 </div>
               </div>
             </motion.div>
